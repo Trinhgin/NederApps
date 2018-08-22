@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>			
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/build/ol.js"></script>
 </head>
 <body>
 	<div id="header">
 	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	  <a href="../index.html">Home</a>
-	  <a href="#">About</a>
+	  <a href="html/about.html">About</a>
 	  <a href="html/gallery.html">Gallery</a>
 	  <a href="html/contact.html">Contact</a>
 	</div>
@@ -26,7 +27,9 @@
 			<p>12-46, 1066 EP</br></p>
 			<p>Amsterdam, The Netherlands</br></p>
 		</div>
+		<div id="map"></div>
 	</div>
+	
 	<div class="form">
 		<h1 id="contact">Contact Form</h1>
 
@@ -47,7 +50,17 @@
 			    <label for="comment">Comment</label>
 			    <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
 
-			    <input type="submit" value="Submit">
+			    <button id="submit" type="reset">Submit</button> 
+			    <!-- The Modal -->
+				<div id="myModal" class="modal">
+
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <p>Your info has been sent</p>
+			  </div>
+
+			</div>
   			</form>
 		</div>
 	</div>
@@ -56,12 +69,14 @@
 	<footer>
 		<p>© 2018 Team Awesome</p>
 		<div>
-			<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-			<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
-			<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+			<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
 		</div>
 
 	</footer>
 	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+	<script type="text/javascript" src="../js/contact.js"></script>
 </body>
 </html>
