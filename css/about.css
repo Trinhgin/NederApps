@@ -23,6 +23,8 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: orange;
@@ -61,33 +63,48 @@
 
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding-left:20px;
-    padding-right: 20px;
-    font-size: 20px;
-    align-items: flex-end;
-    font-family: 'Titillium Web', sans-serif;
-
-}
-
-#text {
-    background-image: url(../Images/lightbulb.jpg);
-    height:1000px;
-    background-size: cover;
-    background-position: center center;
-    align-items: flex-end;
-}
 body {
-    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 0px;
 }
 
-#text p {
-    padding-top: 750px;
+#text {
     display: flex;
-    font-size: 50px;
+    background-image: url(../Images/contactbackground.jpg);
+    height:1000px;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#text p {
+    padding: 70px;
+    line-height: 60px;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    display: flex;
+    color: black;
+    font-size: 30px;
     justify-content: center;
     font-family: 'Titillium Web', sans-serif;
 }
+#touch {
+  font-size: 200px;
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+footer {
+      display: flex;
+      justify-content: space-between;
+      padding-left:20px;
+      padding-right: 20px;
+      font-size: 20px;
+      align-items: flex-end;
+  }
