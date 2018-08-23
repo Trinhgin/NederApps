@@ -1,6 +1,10 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
-// })
+})
+
+$("#logo").click(function() {
+  window.location.href= '../index.html';
+});
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
