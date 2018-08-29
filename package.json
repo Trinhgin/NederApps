@@ -1,23 +1,20 @@
 {
-  "name": "business_website_node",
+
+  "name": "buss_site",
   "version": "1.0.0",
-  "description": "",
+  "description": "business website local node server",
+
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/morganafsmaia/NederApps.git"
-  },
-  "author": "MFSM",
+
+  "author": "Baukje Knol",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/morganafsmaia/NederApps/issues"
-  },
-  "homepage": "https://github.com/morganafsmaia/NederApps#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "fs": "0.0.1-security"
+    "express-generator": "^4.16.0",
+    "http-server": "^0.11.1"
+
   }
 }
