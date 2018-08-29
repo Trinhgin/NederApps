@@ -1,0 +1,23 @@
+{
+  "name": "business_website_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morganafsmaia/NederApps.git"
+  },
+  "author": "MFSM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morganafsmaia/NederApps/issues"
+  },
+  "homepage": "https://github.com/morganafsmaia/NederApps#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security"
+  }
+}
