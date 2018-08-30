@@ -1,0 +1,24 @@
+{
+  "name": "static_website_nodejs",
+  "version": "1.0.0",
+  "description": "- Take the website that you built previously, and create a new branch on git so the old version is still available for grading / reviewing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trinhgin/NederApps.git"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "nodejs"
+  ],
+  "author": "trinh nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trinhgin/NederApps/issues"
+  },
+  "homepage": "https://github.com/Trinhgin/NederApps#readme"
+}
