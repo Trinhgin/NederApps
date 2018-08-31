@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Trinhgin/NederApps/issues"
   },
-  "homepage": "https://github.com/Trinhgin/NederApps#readme"
+  "homepage": "https://github.com/Trinhgin/NederApps#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
